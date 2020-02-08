@@ -1,0 +1,31 @@
+{
+  "name": "elktree-express-app",
+  "version": "0.1.0",
+  "description": "A simple way for express app building.",
+  "main": "index.js",
+  "bin": {
+    "create-elktree-express": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElkTreeStudio/ElkTree-express-app.git"
+  },
+  "keywords": [
+    "express",
+    "node",
+    "app"
+  ],
+  "author": "Yichun Sung",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ElkTreeStudio/ElkTree-express-app/issues"
+  },
+  "homepage": "https://github.com/ElkTreeStudio/ElkTree-express-app#readme",
+  "dependencies": {
+    "commander": "^4.1.1",
+    "fs": "0.0.1-security"
+  }
+}
